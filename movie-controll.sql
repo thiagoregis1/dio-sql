@@ -6,7 +6,7 @@ CREATE TABLE movies(
     name VARCHAR(30) NOT NULL,
     total_ep INT,
     atual_ep INT,
-    last_view DEFAULT DATE timestamp()
+    last_view DATE DEFAULT CURRENT_TIMESTAMP()
 );
 
 
