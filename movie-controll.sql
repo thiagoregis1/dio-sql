@@ -1,4 +1,4 @@
-CREATE DATABASE movie-controll;           #criado através da interface do phpmyadmin, pois o command line nao aceitava o '-'
+CREATE DATABASE movies-controll;           #criado através da interface do phpmyadmin, pois o command line nao aceitava o '-'
 
 CREATE TABLE movies(
     id INT PRIMARY KEY AUTO_INCREMENT,
